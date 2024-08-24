@@ -53,7 +53,7 @@ def analyze():
 
 @app.route('/<path:filename>')
 def serve_static(filename):
-    return send_from_directory('.', filename)
+    return send_from_directory('./public/', filename)
 
 if __name__ == '__main__':
     app.run(debug=True)
