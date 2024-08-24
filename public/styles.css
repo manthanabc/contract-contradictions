@@ -1,0 +1,99 @@
+/* Styles for the diff container */
+.diff-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #5e3939;
+}
+
+/* Styles for the original text */
+.diff-original {
+    color: #d9534f; /* Red for original text */
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #d9534f;
+    border-radius: 4px;
+    background-color: #fff5f5;
+}
+
+/* Styles for the later text */
+.diff-later {
+    color: #5bc0de; /* Blue for later text */
+    padding: 5px;
+    border: 1px solid #5bc0de;
+    border-radius: 4px;
+    background-color: #eaf4f9;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    color: #f2f2f2;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #101010;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text-inputs {
+    display: flex;
+    background-color: #000000;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 50%;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    color: white;
+    background: #000000
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.diff-output {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    background-color: #fafafa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #101010;
+}
